@@ -4,7 +4,7 @@
 // import { isEmpty } from "lodash";
 // import Image from "next/image";
 
-// import Footer from "./Footer";
+import Footer from "./Footer";
 import Header from "./Header";
 
 // hook
@@ -20,6 +20,7 @@ export default function Layout({ children }: Props) {
     <>
       <Header />
       <main>{children}</main>
+      <Footer />
     </>
   );
 }
